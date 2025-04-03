@@ -1,7 +1,5 @@
 # Car-Parking-System
 
-# Smart Car Parking System Using Stack
-
 ## Overview
 The **Smart Car Parking System** is a simple C-based implementation that efficiently manages parking using the **Stack Data Structure**. This system simulates a real-world car parking lot where cars enter and exit following the **Last In, First Out (LIFO)** principle.
 
