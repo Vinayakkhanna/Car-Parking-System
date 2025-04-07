@@ -1,0 +1,53 @@
+🚦Smart Car Parking System
+1. Park a Car
+2. Remove a Car
+3. Display Parking
+4. Exit
+Enter your choice: 1
+Enter Car Number: 0001
+Car 1 parked successfully.
+
+🚦Smart Car Parking System
+1. Park a Car
+2. Remove a Car
+3. Display Parking
+4. Exit
+Enter your choice: 1
+Enter Car Number: 0002
+Car 2 parked successfully.
+
+🚦Smart Car Parking System
+1. Park a Car
+2. Remove a Car
+3. Display Parking
+4. Exit
+Enter your choice: 3
+Current Parking Status:
+Car 2
+Car 1
+
+🚦Smart Car Parking System
+1. Park a Car
+2. Remove a Car
+3. Display Parking
+4. Exit
+Enter your choice: 2
+Enter Car Number to Remove: 0002
+Car 2 has left the parking.
+
+🚦Smart Car Parking System
+1. Park a Car
+2. Remove a Car
+3. Display Parking
+4. Exit
+Enter your choice: 3
+Current Parking Status:
+Car 1
+
+🚦Smart Car Parking System
+1. Park a Car
+2. Remove a Car
+3. Display Parking
+4. Exit
+Enter your choice: 4
+🚦 Exiting Smart Parking System. Have a great day!
