@@ -39,7 +39,6 @@ void removeCar(Stack *s, int carNumber) {
     initialize(&temp);
     int found = 0;
 
-    // Move cars to temp stack until we find the target car
     while (!isEmpty(s)) {
         int currentCar = s->cars[s->top--];
         if (currentCar == carNumber) {
@@ -47,13 +46,12 @@ void removeCar(Stack *s, int carNumber) {
             found = 1;
             break;
         } else {
-            temp.cars[++temp.top] = currentCar; // Directly move to temp
+            temp.cars[++temp.top] = currentCar; 
         }
     }
 
-    // Restore remaining cars from temp back to parking
     while (!isEmpty(&temp)) {
-        s->cars[++s->top] = temp.cars[temp.top--]; // Restore without parking checks
+        s->cars[++s->top] = temp.cars[temp.top--];
     }
 
     if (!found) {
